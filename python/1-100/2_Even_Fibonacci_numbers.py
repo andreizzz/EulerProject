@@ -37,4 +37,4 @@ def even_sum(array):
 
 start = [1, 2] #стартовый набор
 max = 4000000 # максимальное число
-print(even_sum(fib_max(start, max))) #выводим на экран
+print('Сумма всех четных элементов ряда Фибоначчи, не превышающих {0} равна {1}.'.format(max,even_sum(fib_max(start, max)))) #выводим на экран
