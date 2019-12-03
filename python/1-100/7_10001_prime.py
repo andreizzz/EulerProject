@@ -4,8 +4,8 @@
 #
 # Какое число является 10001-ым простым числом?
 #
-import time
-start_time = time.time()
+
+
 def is_prime(num):
     '''Функция определения простого числа
 
@@ -37,10 +37,4 @@ def prime_numb(num):
 
 num = 10001
 
-#print('{0}-ым простое число являеться: {1}'.format(num, prime_numb(num)))
-print(is_prime(4444443888888833567))
-
-
-
-
-print("--- %s seconds ---" % (time.time() - start_time))
+print('{0}-ым простое число являеться: {1}'.format(num, prime_numb(num)))
