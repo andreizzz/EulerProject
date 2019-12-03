@@ -25,14 +25,14 @@ def prime_numb(num):
     Путем перебора и проверки ищет простое n-ое число
     Возвращает число.'''
     count = 0 # счетчик простых чисел
-    prime_num = 2 # стартовое простое число
-    while count != num: # цикл поиска
+    prime_num = 1 # стартовое простое число
+    while count != num: # цикл поиска n-го числа по нечетным числам
         if is_prime(prime_num):
             count += 1
-            prime_num += 1
+            prime_num += 2
         else:
-            prime_num += 1
-    return prime_num - 1 #возвращаем предыдуще число
+            prime_num += 2
+    return prime_num - 2 #возвращаем предыдуще число
 
 
 num = 10001
