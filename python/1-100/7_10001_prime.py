@@ -37,4 +37,4 @@ def prime_numb(num):
 
 num = 10001
 
-print('{0}-ым простое число являеться: {1}'.format(num, prime_numb(num)))
+print('{0}-ым простым число являеться: {1}'.format(num, prime_numb(num)))
